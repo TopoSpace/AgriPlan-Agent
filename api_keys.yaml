@@ -1,0 +1,8 @@
+qweather:
+<<<<<<< HEAD
+  apikey: "replace your api key here"
+  api_host: "replace your api host here"
+=======
+  apikey: "b517215018a548238211aa02090c2e39"
+  api_host: "https://q44wcrueut.re.qweatherapi.com"
+>>>>>>> 90fdf04 (Initial commit - upload AgriPlan-AI project)
