@@ -4,10 +4,8 @@ from openai import OpenAI
 import os
 
 # 创建 LLM 接口（使用 DeepSeek-V3）
-<<<<<<< HEAD
+
 client = OpenAI(api_key="replace your api key here", base_url="https://api.deepseek.com/v1")
-=======
-client = OpenAI(api_key="sk-6db1fa306e5f4a118cd7277cb1a8bf95", base_url="https://api.deepseek.com/v1")
 >>>>>>> 90fdf04 (Initial commit - upload AgriPlan-AI project)
 
 def generate_crop_plan(
