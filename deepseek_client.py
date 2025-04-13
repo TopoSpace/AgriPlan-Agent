@@ -6,11 +6,7 @@ from agent.agent_controller import AgentController
 
 class DeepSeekClient:
     def __init__(self,
-<<<<<<< HEAD
                  api_key: str = "replace your api key here",
-=======
-                 api_key: str = "sk-6db1fa306e5f4a118cd7277cb1a8bf95",
->>>>>>> 90fdf04 (Initial commit - upload AgriPlan-AI project)
                  base_url: str = "https://api.deepseek.com/v1"):
         self.client = OpenAI(api_key=api_key, base_url=base_url)
         self.controller = AgentController()
